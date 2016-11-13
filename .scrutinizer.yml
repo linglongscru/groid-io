@@ -21,3 +21,7 @@ build:
                 coverage:
                     file: 'storage/tmp/coverage.xml'
                     format: 'clover'
+checks:
+    php:
+        code_rating: true
+        duplication: true
