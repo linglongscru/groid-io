@@ -3,21 +3,17 @@
 namespace Groid\Http\Controllers;
 
 use Groid\Op;
-use Illuminate\Contracts\Auth\Guard;
 use Groid\Transformers\OpTransformer;
 
 class OpsController extends ApiController
 {
     /**
-     * @param Guard $guard
      * @return \Dingo\Api\Http\Response
      */
-    public function index(Guard $guard)
+    public function index()
     {
-        $user = $guard->user()->id;
-        $myOps = Op::whereUserId($user);
-        $ops = $myOps->paginate(10);
-        return $this->response->paginator($ops, new OpTransformer());
+            $ops = Op::paginate(10);
+            return $this->response->paginator($ops, new OpTransformer());
     }
 
     /**
