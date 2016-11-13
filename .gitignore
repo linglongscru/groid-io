@@ -1,0 +1,31 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+storage/app
+storage/framework
+storage/logs/
+storage/tmp/
+storage/uploads/
+
+############
+## NodeJS ##
+############
+node_modules/
+phantomjsdriver.log
+config.js
+dump.rdb
+npm-debug.log
+
+###############################################################
+# see this gist for some more suggestions                     #
+# https://gist.github.com/defenestrator/5ad679db122177888da5  #
+###############################################################
+.idea/
+.idea*
+groid.prod.env
+server.conf
+_ide_helper.php
+storage/profiles/
+spark/install-stubs/routes/
+spark/src/Notifications/

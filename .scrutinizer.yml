@@ -1,0 +1,23 @@
+build:
+    environment:
+            php:
+                version: 7.0.8
+                ini:
+                    'date.timezone': 'US/Pacific'
+    dependencies:
+        before:
+            - cp .env.travis .env
+            - touch storage/acceptance/acceptance.sqlite
+            - mkdir storage/uploads
+            - chmod -R 777 storage bootstrap/cache
+            - composer install --prefer-source
+            - php artisan key:generate
+            - php artisan migrate --seed
+            - cp storage/acceptance/acceptance.sqlite storage/integration/integration.sqlite
+    tests:
+        override:
+            -
+                command: 'phpunit --coverage-clover=storage/tmp/coverage.xml'
+                coverage:
+                    file: 'storage/tmp/coverage.xml'
+                    format: 'clover'

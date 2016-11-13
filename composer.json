@@ -1,0 +1,66 @@
+{
+    "name": "edos-io/groid-io",
+    "description": "Groid",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "keywords": [
+        "agriculture",
+        "hydroponics"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "~5.3.10",
+        "dingo/api": "v1.0.0-beta6",
+        "laravel/cashier": "~7.0",
+        "laravel/spark": "*@dev"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/css-selector": "2.8.*|3.1.*",
+        "symfony/dom-crawler": "2.8.*|3.1.*",
+        "doctrine/dbal": "^2.5",
+        "zf2timo/phpunit-pretty-result-printer": "1.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Groid\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests//utilities"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./spark"
+        }
+    ]
+}
