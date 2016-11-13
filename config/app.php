@@ -178,6 +178,7 @@ return [
         Groid\Providers\AppServiceProvider::class,
         Groid\Providers\AuthServiceProvider::class,
         // Groid\Providers\BroadcastServiceProvider::class,
+        Dingo\Api\Provider\LaravelServiceProvider::class,
         Groid\Providers\EventServiceProvider::class,
         Groid\Providers\RouteServiceProvider::class,
 
