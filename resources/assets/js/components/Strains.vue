@@ -1,7 +1,7 @@
 <script>
     export default{
         methods: {
-            fetchStrains: function() {
+            fetchStrains() {
                 let x = []
                 this.$http.get('/api/strains').then((response) => {
                     for (i = 0; i < response.data.data.length; i++) {
@@ -23,10 +23,10 @@
             }},
 
 
-        data(){
+        data: function() {
             return{
-                strains: this.fetchStrains(),
-                pages: this.pagination()
+                strains: this.fetchStrains,
+                pages: this.pagination
             }
         }
     }

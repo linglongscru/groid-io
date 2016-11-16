@@ -2,7 +2,7 @@
 <script>
     export default{
         methods: {
-          fetchCycles: function() {
+          fetchCycles() {
               let x = [];
               this.$http.get('/api/cycles').then((response) => {
                   for (i = 0; i < response.data.data.length; i++) {
@@ -14,9 +14,9 @@
               });
           }
         },
-        data(){
-            return{
-                cycles: this.fetchCycles()
+        data: function() {
+            return {
+                cycles: this.fetchCycles
             }
         },
     }
@@ -26,16 +26,18 @@
 </style>
 
 <template>
-    <div name="cycles">
+<div name="cycles">
+    <div class="col-md-10 col-md-offset-1">
         <div class="panel panel-default">
             <div class="panel-heading">Cycles</div>
             <div id="cycles" class="panel-body">
                 <ul>
                     <li :cycles="cycles" v-for="cycle in cycles" >
-                        {{ cycle }}
+                        {{ cycle.name }}
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+</div>
 </template>

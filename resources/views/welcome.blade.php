@@ -13,12 +13,12 @@
 
     <style>
         body, html {
-            background: url('/img/color-logo.png');
+            background: url('/img/Groid-logo-3.png') top left;
             background-repeat: no-repeat;
             background-size: contain;
             height: 100%;
             margin: 0;
-            min-height: 200px;
+            min-height: 400px;
         }
 
         .full-height {
