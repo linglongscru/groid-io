@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         if (env('APP_ENV') == 'production'){
-            die(['The application has died, horribly. Don\'t seed fake data to production, goofball']);
+//            die('The application has died, horribly. Don\'t seed fake data to production, goofball');
         }
         $this->call(CyclesTableSeeder::class);
         $this->call(JournalsTableSeeder::class);

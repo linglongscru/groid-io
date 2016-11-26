@@ -15,12 +15,12 @@ use Illuminate\Database\Eloquent\Model;
  * @property \Carbon\Carbon $updated_at
  * @property-read \Groid\User $user
  * @property-read \Illuminate\Database\Eloquent\Collection|\Groid\Photo[] $photo
- * @method static \Illuminate\Database\Query\Builder|\Groid\Journal whereId($value)
- * @method static \Illuminate\Database\Query\Builder|\Groid\Journal whereUserId($value)
- * @method static \Illuminate\Database\Query\Builder|\Groid\Journal whereTitle($value)
- * @method static \Illuminate\Database\Query\Builder|\Groid\Journal whereBody($value)
- * @method static \Illuminate\Database\Query\Builder|\Groid\Journal whereCreatedAt($value)
- * @method static \Illuminate\Database\Query\Builder|\Groid\Journal whereUpdatedAt($value)
+ * @method static whereId($value)
+ * @method static whereUserId($value)
+ * @method static whereTitle($value)
+ * @method static whereBody($value)
+ * @method static whereCreatedAt($value)
+ * @method static whereUpdatedAt($value)
  * @mixin \Eloquent
  */
 class Journal extends Model
