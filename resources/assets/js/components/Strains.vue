@@ -1,32 +1,22 @@
-<script>
+<script type="text/babel">
     export default{
         methods: {
             fetchStrains() {
-                let x = []
-                this.$http.get('/api/strains').then((response) => {
-                    for (i = 0; i < response.data.data.length; i++) {
-                    x.push(response.data.data[i])
-                }
-                this.$set('strains', x);
-            }, (response) => {
+                this.$http.get('/api/strains').then(response => {
+                    this.strains = response.data.data
+                }).catch(response => {
                     throw new EventException;
-                });
-            },
-            pagination: function() {
-                this.$http.get('/api/strains').then((response) => {
-                    console.log(_.values(response.data.meta.pagination.links));
-                    this.$set('pages', _.values(response.data.meta.pagination.links));
-
-            }, (response) => {
-                    throw new EventException;
-                });
-            }},
-
+                })
+            }
+        },
+        mounted() {
+            console.log("Strains Component Ready!")
+            this.fetchStrains();
+        },
 
         data: function() {
             return{
-                strains: this.fetchStrains,
-                pages: this.pagination
+                strains: this.strains
             }
         }
     }

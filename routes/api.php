@@ -14,7 +14,7 @@
 $api = app('Dingo\Api\Routing\Router');
 
 $api->version('v1', function($api) {
-    $api->group(['namespace' => 'Groid\Http\Controllers', 'middleware', 'auth:api'], function($api) {
+    $api->group(['namespace' => 'Groid\Http\Controllers', 'middleware' => 'auth:api'], function($api) {
 
         // Operational Units
         $api->get('ops', ['as' => 'ops.get', 'uses' => 'OpsController@index']);

@@ -14,7 +14,8 @@
         "laravel/framework": "~5.3.10",
         "dingo/api": "v1.0.0-beta6",
         "laravel/cashier": "~7.0",
-        "laravel/spark": "*@dev"
+        "laravel/spark": "*@dev",
+        "league/fractal": "^0.14.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -9,8 +9,7 @@ Vue.component('strains', Strains)
 
 Vue.component('home', {
     props: ['user'],
-    data() {
-        return {
-        }
+    ready() {
     }
 });
+

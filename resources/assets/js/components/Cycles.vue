@@ -1,14 +1,11 @@
 
-<script>
+<script type="text/babel">
     export default{
         methods: {
           fetchCycles() {
               let x = [];
               this.$http.get('/api/cycles').then((response) => {
-                  for (i = 0; i < response.data.data.length; i++) {
-                      x.push(response.data.data[i].name)
-                  }
-              this.$set('cycles', x);
+                  this.cycles = response.data.data
           }, (response) => {
                   throw new EventException;
               });
@@ -16,8 +13,12 @@
         },
         data: function() {
             return {
-                cycles: this.fetchCycles
+                cycles: []
             }
+        },
+        mounted() {
+            console.log("Cycles Component Ready!")
+            this.fetchCycles();
         },
     }
 </script>
