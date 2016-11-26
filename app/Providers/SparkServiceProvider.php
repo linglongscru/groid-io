@@ -53,7 +53,7 @@ class SparkServiceProvider extends ServiceProvider
     {
         Spark::useStripe()->noCardUpFront()->teamTrialDays(10);
 
-        Spark::teafreePlan()
+        Spark::freePlan()
             ->features([
                 'First', 'Second', 'Third'
             ]);
