@@ -2,12 +2,10 @@
 
 namespace Groid;
 
-use Laravel\Spark\CanJoinTeams;
 use Laravel\Spark\User as SparkUser;
 
 class User extends SparkUser
 {
-    use CanJoinTeams;
     /**
      * The attributes that are mass assignable.
      *
