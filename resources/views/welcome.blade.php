@@ -13,7 +13,7 @@
 
     <style>
         body, html {
-            background: url('/img/Groid-logo-3.png') top left;
+            background: url('/img/Groid-logo-3.png') top;
             background-repeat: no-repeat;
             background-size: contain;
             height: 100%;
@@ -46,7 +46,7 @@
         }
 
         .links {
-            padding: 1em;
+            padding: 1.5em 1.8em;
             text-align: right;
         }
 
@@ -61,30 +61,29 @@
             color: white;
             cursor: pointer;
             font-family: 'Source Sans Pro';
-            font-size: 16px;
+            font-size: 24px;
             font-weight: 300;
             padding: 15px;
+            margin:.25rem;
             text-transform: uppercase;
-            width: 100px;
+            width: 150px;
         }
     </style>
 </head>
 <body>
     <div class="full-height flex-column">
         <nav class="links">
-            <a href="/login" style="margin-right: 15px;">
-                <button>
-                    Login
-                </button>
-            </a>
-
             <a href="/register">
                 <button>
                     Register
                 </button>
             </a>
+            <a href="/login" style="margin-right: 15px;">
+                <button>
+                    Login
+                </button>
+            </a>
         </nav>
-
         <div class="flex-fill flex-center">
             <h1 class="text-center">
             </h1>

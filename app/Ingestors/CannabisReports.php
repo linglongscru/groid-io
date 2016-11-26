@@ -61,7 +61,7 @@ class CannabisReports
                     'ucpc' => $data['data'][$i]['ucpc'],
                     'seed_company' => $data['data'][$i]['seedCompany']['name'],
                     'genetics' => $data['data'][$i]['genetics']['names'],
-                    'cannabis_reports_link' => $data['data'][$i]['link'],
+                    'cannabis_reports_link' => $data['data'][$i]['url'],
                     'ucpc' => $data['data'][$i]['ucpc'],
                     'image' => $data['data'][$i]['image']
                 ]);
@@ -95,16 +95,16 @@ class CannabisReports
 
     public function getStrainDetails()
     {
-        for ($i = 556; $i < 569; ++$i) {
+        for ($i = 1; $i < 569; ++$i) {
             try {
                 sleep(7);
-                $seedco = SeedCompany::where('id', '=', $i)->firstOrFail();
-                $request = $this->client()->get('https://cannabisreports.com/api/v1.0/seed-companies/'.$seedco->ucpc);
+                $strain = Strain::where('id', '=', $i)->firstOrFail();
+                $request = $this->client()->get('https://cannabisreports.com/api/v1.0/strains/'.$strain->ucpc);
                 $response = $request->getBody();
                 $data = json_decode($response, true);
-                $seedco->image = $data['data']['image'];
-                $seedco->url = $data['data']['url'];
-                $seedco->save();
+                $strain->image = $data['data']['image'];
+                $strain->url = $data['data']['url'];
+                $strain->save();
             } catch (\Exception $e) {
                 continue;
             }

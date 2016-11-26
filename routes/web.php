@@ -14,3 +14,9 @@
 Route::get('/', 'WelcomeController@show');
 
 Route::get('/home', 'HomeController@show');
+
+//////////////////////////////////////////////////////////
+// For scraping data from Cannabis Reports. Thanks, folks!
+//////////////////////////////////////////////////////////
+Route::get('/scrape-strains', 'Ingestion\CannabisReportsController@scrape');
+Route::get('/scrape-seed-companies-details', 'Ingestion\CannabisReportsController@seedco');
