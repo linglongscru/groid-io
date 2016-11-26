@@ -11,8 +11,8 @@ class SeedCompaniesTableSeeder extends Seeder
      */
     public function run()
     {
-        if (env('APP_ENV') == 'local') {
-        DB::unprepared(File::get('database/sql/lucinda_2016-07-08.sql'));
+        if (env('APP_ENV') == 'local' || 'beta') {
+            DB::unprepared(File::get('database/sql/lucinda_2016-07-08.sql'));
         } elseif (env('APP_ENV') == 'production') {
             die();
         }
