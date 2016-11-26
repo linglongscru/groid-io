@@ -38,10 +38,7 @@
                                     <li>seed company: {{strain.seed_company}}</li>
                                     <li><a :href="strain.cannabis_reports_link">Cannabis Reports API</a></li>
                                 </ul>
-                                <a style="display:block; width:20%; max-width:200px; min-width:60px;"
-                                   :href="strain.url">
                                     <img :src="strain.image" class="strain-image" />
-                                </a>
                                 <a style="display:block; width:100%; font-size:1.5em;" :href="strain.url">
                                     {{strain.name}}
                                 </a>
