@@ -12,7 +12,7 @@ class StrainsController extends ApiController
      */
     public function index()
     {
-        $strains = Strain::paginate(1110);
+        $strains = Strain::paginate(420);
         return $this->response->paginator($strains, new StrainTransformer());
     }
 

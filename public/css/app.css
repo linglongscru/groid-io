@@ -7385,5 +7385,8 @@ body {
 [v-cloak] {
   display: none;
 }
+.strain-image {
+  max-width: 100px;
+}
 
 /*# sourceMappingURL=app.css.map */
