@@ -11,7 +11,7 @@ class StrainsTableSeeder extends Seeder
      */
     public function run()
     {
-        if (env('APP_ENV') == 'local' || 'beta') {
+        if (env('APP_ENV') == 'local') {
             //  This is being run in the SeedCompaniesTableSeeder
             // DB::unprepared(File::get('database/sql/lucinda_2016-07-08.sql'));
             // So we're just going to return;
