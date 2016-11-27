@@ -15,7 +15,7 @@ The contribution guide can be found [here](contributing.md).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability file an issue on [github](https://github.com/defenestrator/groid/issues).
+If you discover a security vulnerability file an issue on [github](https://github.com/defenestrator/groid-io/issues).
 Security problems will be dealt with swiftly and brutally.
 
 ### License
