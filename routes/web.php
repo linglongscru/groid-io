@@ -13,10 +13,16 @@
 
 Route::get('/', 'WelcomeController@show');
 
-Route::get('/home', 'HomeController@show');
+Route::group(['middleware' => 'activation'], function(){
+    Route::get('/home', 'HomeController@show');
+});
+
+Route::get('/activate/please', function() {
+    return view('auth.guest_activate');
+});
 
 //////////////////////////////////////////////////////////
 // For scraping data from Cannabis Reports. Thanks, folks!
 //////////////////////////////////////////////////////////
-Route::get('/scrape-strains', 'Ingestion\CannabisReportsController@scrape');
-Route::get('/scrape-seed-companies-details', 'Ingestion\CannabisReportsController@seedco');
+//Route::get('/scrape-strains', 'Ingestion\CannabisReportsController@scrape');
+//Route::get('/scrape-seed-companies-details', 'Ingestion\CannabisReportsController@seedco');
