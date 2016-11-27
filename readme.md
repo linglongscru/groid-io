@@ -11,11 +11,11 @@ Coming soon.
 
 Thank you for your interest in helping this project! 
 
-The contribution guide can be found [here](http://github.com/defenestrator/groid/contributing.md).
+The contribution guide can be found [here](contributing.md).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability file an issue on [github](https://github.com/defenestrator/groid/issues).
+If you discover a security vulnerability file an issue on [github](https://github.com/defenestrator/groid-io/issues).
 Security problems will be dealt with swiftly and brutally.
 
 ### License
