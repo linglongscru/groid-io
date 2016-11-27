@@ -40,32 +40,64 @@ class RegisterController extends Controller
     }
 
     /**
-     * Get a validator for an incoming registration request.
-     *
-     * @param  array  $data
-     * @return \Illuminate\Contracts\Validation\Validator
+     * @param $code
+     * @param Message $message
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    protected function validator(array $data)
+    public function activateAccount($code, Message $message)
     {
-        return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
-        ]);
+        if ($user = User::where('activation_token', '=', $code)->first()) {
+            $user->active = true;
+            $user->activation_token = null;
+            $user->save();
+            if ($user->save()) {
+                \Auth::login($user);
+                $message->flash(\Lang::get('auth.successActivated'), 'success');
+                session()->flash('create_a_profile', 'Please take a moment to add a little detail to your profile.');
+            }
+
+            return view('user.profile');
+        }
+
+        if (\Auth::user() && \Auth::user()->active == true) {
+            \Auth::user()->activation_token = null;
+            \Auth::user()->save();
+            $message->flash('Your account is already active. let\'s grow something!', 'warning');
+            return view('user.profile');
+        }
+
+        $message->flash('Sorry, friend, that is not a valid link. '.\Lang::get('auth.pleaseActivate'), 'warning');
+        return view('auth.login');
     }
 
     /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return User
+     * @param User $user
      */
-    protected function create(array $data)
+    public function sendEmail(User $user)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
+        $data = array(
+            'email' => $user->email,
+            'code' => $user->activation_token,
+        );
+        mail($data[ 'email' ], 'emails.activate_account', \Lang::get('auth.pleaseActivate'));
+    }
+
+    /**
+     * @return $this
+     */
+    public function resendEmail()
+    {
+        $user = \Auth::user();
+        if ($user->resent >= 3) {
+            return view('auth.tooManyEmails')
+                ->with('email', $user->email);
+        } else {
+            $user->resent = $user->resent + 1;
+            $user->save();
+            $this->sendEmail($user);
+
+            return view('auth.activateAccount')
+                ->with('email', $user->email);
+        }
     }
 }

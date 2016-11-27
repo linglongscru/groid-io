@@ -3,6 +3,7 @@
 namespace Groid\Providers;
 
 use Laravel\Spark\Spark;
+use Carbon\Carbon;
 use Laravel\Spark\Providers\AppServiceProvider as ServiceProvider;
 
 class SparkServiceProvider extends ServiceProvider
@@ -69,6 +70,23 @@ class SparkServiceProvider extends ServiceProvider
             ->features([
                 'First', 'Second', 'Third'
             ]);
+
+        Spark::createUsersWith(function ($request) {
+            $user = Spark::user();
+
+            $data = $request->all();
+
+            $user->forceFill([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'activation_token' => str_random(60).$request->input('email'),
+                'password' => bcrypt($data['password']),
+                'last_read_announcements_at' => Carbon::now(),
+                'trial_ends_at' => Carbon::now()->addDays(Spark::trialDays()),
+            ])->save();
+
+            return $user;
+        });
     }
 
     /**
