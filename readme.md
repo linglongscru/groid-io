@@ -11,7 +11,7 @@ Coming soon.
 
 Thank you for your interest in helping this project! 
 
-The contribution guide can be found [here](http://github.com/defenestrator/groid-io/contributing.md).
+The contribution guide can be found [here](contributing.md).
 
 ## Security Vulnerabilities
 
