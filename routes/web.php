@@ -20,8 +20,8 @@ Route::group(['middleware' => 'activation'], function(){
 Route::get('/activate/please', function() {
     return view('auth.guest_activate');
 });
-Route::get('/resendEmail', 'Auth\RegisterController@resendEmail');
-Route::get('/activate/{code}', 'Auth\RegisterController@activateAccount');
+Route::get('/resendEmail', 'Auth\ActivationController@resendEmail');
+Route::get('/activate/{code}', 'Auth\ActivationController@activateAccount');
 
 //////////////////////////////////////////////////////////
 // For scraping data from Cannabis Reports. Thanks, folks!
