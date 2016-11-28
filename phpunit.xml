@@ -38,6 +38,12 @@
         <env name="MAIL_DRIVER" value="log"/>
         <env name="MAIL_HOST" value="mailgun.smtp.org"/>
         <env name="MAIL_PORT" value="2525"/>
+        <env name="CASHIER_ENV" value="integration"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="STRIPE_MODEL" value="Groid\User" />
+        <env name="STRIPE_KEY" value="pk_test_1PYyais53dMFdNUjeojetlMg" />
+        <env name="STRIPE_SECRET" value="sk_test_vfJslQxUWew4masw9BSqP23M" />
+
     </php>
     <logging>
         <log type="coverage-clover" target="storage/tmp/coverage.xml"/>
