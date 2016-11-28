@@ -13,8 +13,12 @@
 
 Route::get('/', 'WelcomeController@show');
 
-Route::group(['middleware' => 'activation'], function(){
+Route::group(['middleware' => ['web', 'activation']], function(){
     Route::get('/home', 'HomeController@show');
+    Route::resource('/journals', 'JournalsController');
+    Route::resource('/cycles', 'CyclesController');
+    Route::resource('/strains', 'StrainsController');
+    Route::resource('/operational_units', 'OperationalUnitsController');
 });
 
 Route::get('/activate/please', function() {
