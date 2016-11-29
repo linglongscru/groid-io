@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1480397757">
+  <project timestamp="1480397757">
+    <package name="Groid\Console\Commands">
+      <file name="/Users/jeremy/Code/groid-io/app/Console/Commands/Inspire.php">
+        <class name="Inspire" namespace="Groid\Console\Commands">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="29" type="method" name="handle" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <metrics loc="33" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Console">
+      <file name="/Users/jeremy/Code/groid-io/app/Console/Kernel.php">
+        <class name="Kernel" namespace="Groid\Console">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="25" type="method" name="schedule" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <metrics loc="30" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="Groid">
+      <file name="/Users/jeremy/Code/groid-io/app/Cycle.php">
+        <class name="Cycle" namespace="Groid">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+        </class>
+        <line num="54" type="method" name="ops" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="62" type="method" name="stages" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="70" type="method" name="data" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <metrics loc="74" ncloc="33" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Data.php">
+        <class name="Data" namespace="Groid" fullPackage="Groid" package="Groid">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+        </class>
+        <line num="77" type="method" name="cycles" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="85" type="method" name="photos" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="93" type="method" name="stages" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <metrics loc="97" ncloc="41" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Journal.php">
+        <class name="Journal" namespace="Groid">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="41" type="method" name="user" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="49" type="method" name="photo" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <metrics loc="53" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Op.php">
+        <class name="Op" namespace="Groid">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="49" type="method" name="users" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="57" type="method" name="cycles" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <metrics loc="61" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Photo.php">
+        <class name="Photo" namespace="Groid">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+        </class>
+        <line num="40" type="method" name="users" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="48" type="method" name="journals" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="56" type="method" name="data" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <metrics loc="60" ncloc="27" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Plant.php">
+        <class name="Plant" namespace="Groid">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="44" type="method" name="strain" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <metrics loc="49" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Profile.php">
+        <class name="Profile" namespace="Groid">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="84" type="method" name="users" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <metrics loc="87" ncloc="32" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Role.php">
+        <class name="Role" namespace="Groid">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="36" type="method" name="users" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <metrics loc="39" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/SeedCompany.php">
+        <class name="SeedCompany" namespace="Groid">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="53" type="method" name="strains" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <metrics loc="57" ncloc="24" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Stage.php">
+        <class name="Stage" namespace="Groid">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="49" type="method" name="cycles" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="57" type="method" name="plants" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <metrics loc="61" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Strain.php">
+        <class name="Strain" namespace="Groid">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="62" type="method" name="plants" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="70" type="method" name="seedCompanies" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <metrics loc="74" ncloc="25" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Tag.php">
+        <class name="Tag" namespace="Groid">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="9" coveredelements="0"/>
+        </class>
+        <line num="33" type="method" name="photos" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="40" type="method" name="data" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="47" type="method" name="journals" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <metrics loc="50" ncloc="23" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="9" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Team.php">
+        <class name="Team" namespace="Groid">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/User.php">
+        <class name="User" namespace="Groid">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="54" ncloc="39" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Exceptions">
+      <file name="/Users/jeremy/Code/groid-io/app/Exceptions/Handler.php">
+        <class name="Handler" namespace="Groid\Exceptions">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+        </class>
+        <line num="34" type="method" name="report" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="46" type="method" name="render" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <metrics loc="50" ncloc="30" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+      </file>
+    </package>
+    <package name="Groid\Http\Controllers">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/ApiController.php">
+        <class name="ApiController" namespace="Groid\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Controller.php">
+        <class name="Controller" namespace="Groid\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="14" ncloc="14" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/CyclesController.php">
+        <class name="CyclesController" namespace="Groid\Http\Controllers">
+          <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="27" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="27" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="36" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="54" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <metrics loc="58" ncloc="42" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="27" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/DataController.php">
+        <class name="DataController" namespace="Groid\Http\Controllers">
+          <metrics complexity="6" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="0" elements="54" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="26" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="48" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="77" type="method" name="destroy" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <metrics loc="85" ncloc="70" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="0" elements="54" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/HomeController.php">
+        <class name="HomeController" namespace="Groid\Http\Controllers">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="25" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="29" ncloc="19" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/JournalsController.php">
+        <class name="JournalsController" namespace="Groid\Http\Controllers">
+          <metrics complexity="8" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="0" elements="37" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="25" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="34" type="method" name="show" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="50" type="method" name="update" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="67" type="method" name="destroy" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <metrics loc="75" ncloc="55" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="0" elements="37" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/OpsController.php">
+        <class name="OpsController" namespace="Groid\Http\Controllers">
+          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="26" type="method" name="show" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <metrics loc="36" ncloc="28" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/PlantsController.php">
+        <class name="PlantsController" namespace="Groid\Http\Controllers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <metrics loc="22" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/StagesController.php">
+        <class name="StagesController" namespace="Groid\Http\Controllers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="13" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <metrics loc="19" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/StrainsController.php">
+        <class name="StrainsController" namespace="Groid\Http\Controllers">
+          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="13" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="23" type="method" name="show" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <metrics loc="33" ncloc="26" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/UsersController.php">
+        <class name="UsersController" namespace="Groid\Http\Controllers">
+          <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="13" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="28" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="38" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="50" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <metrics loc="53" ncloc="19" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="13" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/WelcomeController.php">
+        <class name="WelcomeController" namespace="Groid\Http\Controllers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <metrics loc="18" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Http\Controllers\Auth">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Auth/ActivationController.php">
+        <class name="ActivationController" namespace="Groid\Http\Controllers\Auth">
+          <metrics complexity="8" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="0" elements="44" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="activateAccount" visibility="public" complexity="5" crap="30" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="44" type="method" name="sendEmail" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="56" type="method" name="resendEmail" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <metrics loc="70" ncloc="59" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="0" elements="44" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Auth/ForgotPasswordController.php">
+        <class name="ForgotPasswordController" namespace="Groid\Http\Controllers\Auth">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Auth/LoginController.php">
+        <class name="LoginController" namespace="Groid\Http\Controllers\Auth">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="35" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="39" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Auth/RegisterController.php">
+        <class name="RegisterController" namespace="Groid\Http\Controllers\Auth">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="35" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="41" ncloc="21" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Auth/ResetPasswordController.php">
+        <class name="ResetPasswordController" namespace="Groid\Http\Controllers\Auth">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="35" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="39" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Http\Controllers\Ingestion">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Controllers/Ingestion/CannabisReportsController.php">
+        <class name="CannabisReportsController" namespace="Groid\Http\Controllers\Ingestion">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="scrape" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="method" name="seedco" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Http">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Kernel.php">
+        <class name="Kernel" namespace="Groid\Http">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="62" ncloc="43" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Http\Middleware">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Middleware/Activation.php">
+        <class name="Activation" namespace="Groid\Http\Middleware">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="handle" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <metrics loc="25" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Middleware/Authenticate.php">
+        <class name="Authenticate" namespace="Groid\Http\Middleware">
+          <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="2" elements="6" coveredelements="2"/>
+        </class>
+        <line num="18" type="method" name="handle" visibility="public" complexity="4" crap="7.46" count="4"/>
+        <line num="20" type="stmt" count="4"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="4"/>
+        <metrics loc="29" ncloc="21" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="2" elements="6" coveredelements="2"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Middleware/EncryptCookies.php">
+        <class name="EncryptCookies" namespace="Groid\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Middleware/RedirectIfAuthenticated.php">
+        <class name="RedirectIfAuthenticated" namespace="Groid\Http\Middleware">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="18" type="method" name="handle" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Middleware/VerifyCsrfToken.php">
+        <class name="VerifyCsrfToken" namespace="Groid\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Api\Requests">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Requests/CycleRequest.php">
+        <class name="CycleRequest" namespace="Groid\Api\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="16" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <metrics loc="25" ncloc="25" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="16" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Requests/DataRequest.php">
+        <class name="DataRequest" namespace="Groid\Api\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="0" elements="21" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="30" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="0" elements="21" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Requests/JournalRequest.php">
+        <class name="JournalRequest" namespace="Groid\Api\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Requests/UserRequest.php">
+        <class name="UserRequest" namespace="Groid\Api\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="11" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="11" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Http\Requests">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Requests/Request.php">
+        <class name="Request" namespace="Groid\Http\Requests">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Http\Utilities">
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Utilities/Country.php">
+        <class name="Country" namespace="Groid\Http\Utilities">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="248" type="method" name="all" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="249" type="stmt" count="0"/>
+        <line num="250" type="stmt" count="0"/>
+        <line num="251" type="stmt" count="0"/>
+        <metrics loc="251" ncloc="251" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Utilities/FlashMessaging.php">
+        <class name="FlashMessaging" namespace="Groid\Http\Utilities">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="5" type="method" name="flash" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="6" type="stmt" count="0"/>
+        <line num="7" type="stmt" count="0"/>
+        <line num="8" type="stmt" count="0"/>
+        <line num="9" type="stmt" count="0"/>
+        <metrics loc="9" ncloc="9" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Http/Utilities/Generators.php">
+        <class name="Generators" namespace="Groid\Http\Utilities">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="generateGuid" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Ingestors">
+      <file name="/Users/jeremy/Code/groid-io/app/Ingestors/CannabisReports.php">
+        <class name="CannabisReports" namespace="Groid\Ingestors">
+          <metrics complexity="14" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="78" coveredstatements="0" elements="84" coveredelements="0"/>
+        </class>
+        <line num="13" type="method" name="client" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="21" type="method" name="makeRequest" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="method" name="iterateOverPages" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="41" type="method" name="parseStrainsPage" visibility="public" complexity="4" crap="20" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="77" type="method" name="getSeedCompanyDetails" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="96" type="method" name="getStrainDetails" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="110" type="stmt" count="0"/>
+        <line num="111" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="0"/>
+        <metrics loc="113" ncloc="108" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="78" coveredstatements="0" elements="84" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Groid\Providers">
+      <file name="/Users/jeremy/Code/groid-io/app/Providers/AppServiceProvider.php">
+        <class name="AppServiceProvider" namespace="Groid\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="boot" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="17" type="stmt" count="4"/>
+        <line num="24" type="method" name="register" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Providers/AuthServiceProvider.php">
+        <class name="AuthServiceProvider" namespace="Groid\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <metrics loc="30" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Providers/BroadcastServiceProvider.php">
+        <class name="BroadcastServiceProvider" namespace="Groid\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="22" type="method" name="anonymous function" complexity="1" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="18" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Providers/EventServiceProvider.php">
+        <class name="EventServiceProvider" namespace="Groid\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="73" type="method" name="boot" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="75" type="stmt" count="4"/>
+        <line num="78" type="stmt" count="4"/>
+        <metrics loc="79" ncloc="63" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Providers/RouteServiceProvider.php">
+        <class name="RouteServiceProvider" namespace="Groid\Providers">
+          <metrics complexity="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="21" coveredelements="21"/>
+        </class>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="28" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <line num="37" type="method" name="map" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="39" type="stmt" count="4"/>
+        <line num="41" type="stmt" count="4"/>
+        <line num="44" type="stmt" count="4"/>
+        <line num="54" type="method" name="mapWebRoutes" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="56" type="stmt" count="4"/>
+        <line num="57" type="stmt" count="4"/>
+        <line num="59" type="stmt" count="4"/>
+        <line num="60" type="stmt" count="4"/>
+        <line num="61" type="stmt" count="4"/>
+        <line num="69" type="method" name="mapApiRoutes" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="71" type="stmt" count="4"/>
+        <line num="72" type="stmt" count="4"/>
+        <line num="73" type="stmt" count="4"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="75" type="method" name="anonymous function" complexity="1" crap="1" count="4"/>
+        <line num="76" type="stmt" count="4"/>
+        <line num="77" type="stmt" count="4"/>
+        <line num="78" type="stmt" count="4"/>
+        <metrics loc="79" ncloc="43" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="22" coveredelements="22"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Providers/SparkServiceProvider.php">
+        <class name="SparkServiceProvider" namespace="Groid\Providers">
+          <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="67" coveredstatements="56" elements="70" coveredelements="58"/>
+        </class>
+        <line num="53" type="method" name="booted" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="55" type="stmt" count="4"/>
+        <line num="57" type="stmt" count="4"/>
+        <line num="58" type="stmt" count="4"/>
+        <line num="59" type="stmt" count="4"/>
+        <line num="60" type="stmt" count="4"/>
+        <line num="62" type="stmt" count="4"/>
+        <line num="63" type="stmt" count="4"/>
+        <line num="64" type="stmt" count="4"/>
+        <line num="65" type="stmt" count="4"/>
+        <line num="67" type="stmt" count="4"/>
+        <line num="68" type="stmt" count="4"/>
+        <line num="69" type="stmt" count="4"/>
+        <line num="70" type="stmt" count="4"/>
+        <line num="71" type="stmt" count="4"/>
+        <line num="72" type="stmt" count="4"/>
+        <line num="73" type="stmt" count="4"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="75" type="stmt" count="4"/>
+        <line num="76" type="stmt" count="4"/>
+        <line num="77" type="stmt" count="4"/>
+        <line num="78" type="stmt" count="4"/>
+        <line num="79" type="stmt" count="4"/>
+        <line num="80" type="stmt" count="4"/>
+        <line num="81" type="stmt" count="4"/>
+        <line num="82" type="stmt" count="4"/>
+        <line num="84" type="stmt" count="4"/>
+        <line num="85" type="stmt" count="4"/>
+        <line num="86" type="stmt" count="4"/>
+        <line num="87" type="stmt" count="4"/>
+        <line num="88" type="stmt" count="4"/>
+        <line num="90" type="stmt" count="4"/>
+        <line num="91" type="stmt" count="4"/>
+        <line num="92" type="stmt" count="4"/>
+        <line num="93" type="stmt" count="4"/>
+        <line num="94" type="stmt" count="4"/>
+        <line num="95" type="stmt" count="4"/>
+        <line num="96" type="stmt" count="4"/>
+        <line num="97" type="stmt" count="4"/>
+        <line num="98" type="stmt" count="4"/>
+        <line num="99" type="stmt" count="4"/>
+        <line num="100" type="stmt" count="4"/>
+        <line num="102" type="stmt" count="4"/>
+        <line num="103" type="stmt" count="4"/>
+        <line num="104" type="stmt" count="4"/>
+        <line num="105" type="stmt" count="4"/>
+        <line num="106" type="stmt" count="4"/>
+        <line num="108" type="stmt" count="4"/>
+        <line num="109" type="stmt" count="4"/>
+        <line num="110" type="stmt" count="4"/>
+        <line num="111" type="stmt" count="4"/>
+        <line num="112" type="stmt" count="4"/>
+        <line num="113" type="stmt" count="4"/>
+        <line num="115" type="method" name="anonymous function" complexity="1" crap="1.77" count="4"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="122" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="0"/>
+        <line num="124" type="stmt" count="0"/>
+        <line num="125" type="stmt" count="0"/>
+        <line num="126" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="0"/>
+        <line num="129" type="stmt" count="0"/>
+        <line num="130" type="stmt" count="4"/>
+        <line num="132" type="stmt" count="4"/>
+        <line num="133" type="stmt" count="4"/>
+        <line num="134" type="stmt" count="4"/>
+        <line num="135" type="stmt" count="4"/>
+        <line num="136" type="stmt" count="4"/>
+        <line num="141" type="method" name="register" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="143" type="stmt" count="4"/>
+        <line num="144" type="stmt" count="4"/>
+        <line num="145" type="stmt" count="4"/>
+        <metrics loc="146" ncloc="118" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="72" coveredstatements="61" elements="75" coveredelements="63"/>
+      </file>
+    </package>
+    <package name="Groid\Transformers">
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/CycleTransformer.php">
+        <class name="CycleTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="12" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="12" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/DataTransformer.php">
+        <class name="DataTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="17" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="27" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="17" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/JournalTransformer.php">
+        <class name="JournalTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/OpTransformer.php">
+        <class name="OpTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="9" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <metrics loc="23" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="9" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/PlantTransformer.php">
+        <class name="PlantTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <metrics loc="20" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/StageTransformer.php">
+        <class name="StageTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <metrics loc="18" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/StrainTransformer.php">
+        <class name="StrainTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="16" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="27" ncloc="27" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="16" coveredelements="0"/>
+      </file>
+      <file name="/Users/jeremy/Code/groid-io/app/Transformers/UserTransformer.php">
+        <class name="UserTransformer" namespace="Groid\Transformers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="transform" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="64" loc="2876" ncloc="1949" classes="64" methods="106" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="630" coveredstatements="89" elements="736" coveredelements="102"/>
+  </project>
+</coverage>
