@@ -9,7 +9,8 @@
          stopOnFailure="false"
          syntaxCheck="false"
          colors="true"
-         printerClass="PrettyResultPrinter\Printer"
+         printerFile="vendor/whatthejeff/nyancat-phpunit-resultprinter/src/NyanCat/PHPUnit/ResultPrinter.php"
+         printerClass="NyanCat\PHPUnit\ResultPrinter"
 >
     <testsuites>
         <testsuite name="HMTL Test Suite">
@@ -40,7 +41,8 @@
         <env name="API_DOMAIN" value="localhost" />
         <env name="API_NAME" value="groid.io" />
         <env name="API_PREFIX" value="api" />
-        <env name="DB_DATABASE" value="storage/integration/integration.sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+        <env name="DB_HOST" value="NO"/>
         <env name="MAIL_DRIVER" value="log"/>
         <env name="CASHIER_ENV" value="testing"/>
         <env name="CACHE_DRIVER" value="array"/>
@@ -49,6 +51,6 @@
         <env name="STRIPE_SECRET" value="sk_test_vfJslQxUWew4masw9BSqP23M" />
     </php>
     <logging>
-        <log type="coverage-clover" target="storage/tmp/coverage.xml"/>
+        <log type="coverage-clover" target="tests/coverage/coverage.xml"/>
     </logging>
 </phpunit>

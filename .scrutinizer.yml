@@ -18,12 +18,9 @@ build:
             -
                 command: 'phpunit'
                 coverage:
-                    file: 'storage/tmp/coverage.xml'
+                    file: 'tests/coverage/coverage.xml'
                     format: 'clover'
 checks:
     php:
         code_rating: true
         duplication: true
-filter:
-    excluded_paths:
-        - tests/*

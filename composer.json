@@ -27,7 +27,7 @@
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.1.*",
         "symfony/dom-crawler": "2.8.*|3.1.*",
-        "zf2timo/phpunit-pretty-result-printer": "1.0.0"
+        "whatthejeff/nyancat-phpunit-resultprinter": "~1.2"
     },
     "autoload": {
         "classmap": [
