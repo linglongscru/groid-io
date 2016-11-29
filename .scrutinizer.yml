@@ -18,5 +18,5 @@ checks:
         code_rating: true
         duplication: true
 tools:
-    external_code_coverage: true
-        timeout: 1200    # Timeout in seconds.
+    external_code_coverage:
+        timeout: 1200
