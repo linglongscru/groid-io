@@ -6,10 +6,10 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class UpdateProfilePhotoTest extends TestCase
 {
-//    use DatabaseMigrations;
-//
-//    public function test_profile_photo_can_be_updated()
-//    {
+    use DatabaseMigrations;
+
+    public function test_profile_photo_can_be_updated()
+    {
 //        $file = new UploadedFile(
 //            public_path('img/color-logo.png'), 'color-logo.png', 'image/png', null, null, true
 //        );
@@ -32,5 +32,5 @@ class UpdateProfilePhotoTest extends TestCase
 //        $this->seeInDatabase('users', [
 //            'photo_url' => '/profile/photo',
 //        ]);
-//    }
+    }
 }
