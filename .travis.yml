@@ -6,6 +6,7 @@ matrix:
   fast_finish: true
 sudo: false
 before_script:
+  - phpenv config-rm xdebug.ini
   - cp .env.travis .env
 script:
   - touch storage/integration/integration.sqlite
@@ -15,7 +16,7 @@ script:
   - composer install --prefer-source
   - php artisan key:generate
   - php artisan migrate --seed
-  - phpunit --coverage-clover tests/coverage/coverage.xml
+  - phpunit --no-coverage
 after_script:
   - php vendor/bin/coveralls -v
   - wget https://scrutinizer-ci.com/ocular.phar
