@@ -6,7 +6,6 @@ matrix:
   fast_finish: true
 sudo: false
 before_script:
-  - phpenv config-rm xdebug.ini
   - cp .env.travis .env
 script:
   - touch storage/integration/integration.sqlite
