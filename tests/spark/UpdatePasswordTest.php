@@ -37,7 +37,7 @@ class UpdatePasswordTest extends TestCase
                     'password_confirmation' => 'secret-updated',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
@@ -65,14 +65,14 @@ class UpdatePasswordTest extends TestCase
                     'current_password' => 'secret',
                     'password' => '',
                     'password_confirmation' => 'secret-updated',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
 
         $this->actingAs($user)
                 ->json('PUT', '/settings/password', [
                     'current_password' => 'secret',
                     'password' => 'secret-updated',
                     'password_confirmation' => '',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 
 
@@ -85,7 +85,7 @@ class UpdatePasswordTest extends TestCase
                     'current_password' => 'secret',
                     'password' => 'secret-updated',
                     'password_confirmation' => 'secret-updated-2',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 
 
@@ -98,6 +98,6 @@ class UpdatePasswordTest extends TestCase
                     'current_password' => 'secret',
                     'password' => 'hello',
                     'password_confirmation' => 'hello',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 }

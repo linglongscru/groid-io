@@ -32,6 +32,6 @@ class UpdateTeamTest extends TestCase
         $this->actingAs($team->owner)
                 ->json('PUT', '/settings/teams/'.$team->id.'/name', [
                     'name' => '',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 }

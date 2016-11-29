@@ -57,7 +57,7 @@ class UpdateTeamPaymentMethodBillingAddressTest extends TestCase
                     'country' => 'TV',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
 
         Spark::collectBillingAddress(false);
     }
@@ -81,7 +81,7 @@ class UpdateTeamPaymentMethodBillingAddressTest extends TestCase
                     'country' => 'US',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
 
         Spark::collectBillingAddress(false);
     }

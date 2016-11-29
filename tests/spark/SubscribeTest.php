@@ -32,7 +32,7 @@ class SubscribeTest extends TestCase
                 ->json('POST', '/settings/subscription', [
                     'stripe_token' => '',
                     'plan' => 'spark-test-1',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 
 
@@ -42,6 +42,6 @@ class SubscribeTest extends TestCase
                 ->json('POST', '/settings/subscription', [
                     'stripe_token' => $this->getStripeToken(),
                     'plan' => 'spark-test-10',
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 }

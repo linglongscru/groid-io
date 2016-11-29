@@ -29,7 +29,7 @@ class UpdateContactInformationTest extends TestCase
                     'name' => '', 'email' => 'taylor@laravel.com',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
@@ -42,6 +42,6 @@ class UpdateContactInformationTest extends TestCase
                     'name' => 'Taylor Otwell', 'email' => '',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 }

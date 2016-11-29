@@ -27,7 +27,7 @@ class CreateApiTokenTest extends TestCase
 //                    'name' => '',
 //                ]);
 //
-//        $this->seeStatusCode(422);
+//        $this->seeStatusCode(500);
 //    }
 
 
@@ -62,6 +62,6 @@ class CreateApiTokenTest extends TestCase
 //                ->json('POST', '/settings/api/token', [
 //                    'name' => 'New Token (Updated)',
 //                    'abilities' => ['delete-servers'],
-//                ])->seeStatusCode(422);
+//                ])->seeStatusCode(500);
 //    }
 }

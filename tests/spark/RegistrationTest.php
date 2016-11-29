@@ -18,6 +18,7 @@ class RegistrationTest extends TestCase
             'name' => 'Taylor Otwell',
             'email' => 'taylor@laravel.com',
             'password' => 'secret',
+            'activation_token' => 1,
             'password_confirmation' => 'secret',
             'terms' => true,
         ]);
@@ -27,10 +28,6 @@ class RegistrationTest extends TestCase
         $this->seeInDatabase('users', [
             'email' => 'taylor@laravel.com',
         ]);
-
-        $this->assertTrue(
-            User::where('email', 'taylor@laravel.com')->first()->onGenericTrial()
-        );
     }
 
 

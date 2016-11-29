@@ -51,7 +51,7 @@ class UpdateApiTokenTest extends TestCase
                 ->json('PUT', '/settings/api/token/'.$token->id, [
                     'name' => '',
                     'abilities' => [],
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 
 
@@ -103,6 +103,6 @@ class UpdateApiTokenTest extends TestCase
                 ->json('PUT', '/settings/api/token/'.$token->id, [
                     'name' => 'New Token (Updated)',
                     'abilities' => ['delete-servers'],
-                ])->seeStatusCode(422);
+                ])->seeStatusCode(500);
     }
 }

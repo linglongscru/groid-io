@@ -54,6 +54,11 @@ class SparkServiceProvider extends ServiceProvider
     {
         Spark::useStripe()->noCardUpFront()->teamTrialDays(30);
 
+        Spark::freePlan()
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+
         Spark::freeTeamPlan()
             ->features([
                 'First', 'Second', 'Third'
@@ -65,6 +70,42 @@ class SparkServiceProvider extends ServiceProvider
                 'First', 'Second', 'Third'
             ]);
         Spark::teamPlan('Basic', 'groid-basic-yearly')
+            ->price(100)
+            ->yearly()
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+        Spark::plan('Basic', 'spark-test-1')
+            ->price(10)
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+
+        Spark::plan('Basic', 'spark-test-2')
+            ->price(20)
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+
+        Spark::plan('Basic', 'spark-test-3')
+            ->price(100)
+            ->yearly()
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+        Spark::teamPlan('Basic', 'spark-test-1')
+            ->price(10)
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+
+        Spark::teamPlan('Basic', 'spark-test-2')
+            ->price(20)
+            ->features([
+                'First', 'Second', 'Third'
+            ]);
+
+        Spark::teamPlan('Basic', 'spark-test-3')
             ->price(100)
             ->yearly()
             ->features([

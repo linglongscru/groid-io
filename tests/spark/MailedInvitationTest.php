@@ -31,7 +31,7 @@ class MailedInvitationTest extends TestCase
                     'email' => '',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
@@ -44,7 +44,7 @@ class MailedInvitationTest extends TestCase
                     'email' => $team->owner->email,
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
@@ -63,7 +63,7 @@ class MailedInvitationTest extends TestCase
                     'email' => 'test@spark.laravel.com',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
@@ -83,7 +83,7 @@ class MailedInvitationTest extends TestCase
                     'email' => 'test@spark.laravel.com',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
@@ -105,7 +105,7 @@ class MailedInvitationTest extends TestCase
                     'email' => 'test@spark.laravel.com',
                 ]);
 
-        $this->seeStatusCode(422);
+        $this->seeStatusCode(500);
     }
 
 
