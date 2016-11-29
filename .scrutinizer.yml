@@ -13,6 +13,10 @@ build:
             - composer install --prefer-source
             - php artisan key:generate
             - php artisan migrate --seed
+    tests:
+        override:
+            -
+                command: 'phpunit --no-coverage'
 checks:
     php:
         code_rating: true
