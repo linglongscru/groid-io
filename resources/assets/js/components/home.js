@@ -9,7 +9,8 @@ Vue.component('strains', Strains)
 
 Vue.component('home', {
     props: ['user'],
-    ready() {
+    mounted() {
+        console.log(this.spark);
     }
 });
 

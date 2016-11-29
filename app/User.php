@@ -27,6 +27,8 @@ class User extends SparkUser
         'password',
         'remember_token',
         'authy_id',
+        'activation_token',
+        'active',
         'country_code',
         'phone',
         'card_brand',

@@ -87,6 +87,11 @@ class SparkServiceProvider extends ServiceProvider
 
             return $user;
         });
+
+        Spark::useRoles([
+            'member' => 'Member',
+            'vip' => 'VIP',
+        ]);
     }
 
     /**
