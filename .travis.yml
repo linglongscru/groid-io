@@ -16,7 +16,7 @@ script:
   - composer install --prefer-source
   - php artisan key:generate
   - php artisan migrate --seed
-  - phpunit --no-coverage
+  - phpunit
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
   - php ocular.phar code-coverage:upload --format=php-clover tests/coverage/coverage.xml
