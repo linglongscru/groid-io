@@ -13,7 +13,7 @@
 
 Route::get('/', 'WelcomeController@show');
 
-Route::group(['middleware' => ['web', 'activation']], function(){
+Route::group(['middleware' => ['web']], function(){
     Route::get('/home', 'HomeController@show');
     Route::resource('/journals', 'JournalsController');
     Route::resource('/cycles', 'CyclesController');

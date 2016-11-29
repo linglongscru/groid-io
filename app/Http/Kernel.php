@@ -48,7 +48,7 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'activation' => \Groid\Http\Middleware\Activation::class,
+//        'activation' => \Groid\Http\Middleware\Activation::class,
         'auth' => \Groid\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'dev' => \Laravel\Spark\Http\Middleware\VerifyUserIsDeveloper::class,
