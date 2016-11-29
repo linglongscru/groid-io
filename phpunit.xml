@@ -25,7 +25,7 @@
         </whitelist>
     </filter>
     <php>
-        <env name="APP_ENV" value="integration"/>
+        <env name="APP_ENV" value="testing"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>
@@ -36,9 +36,7 @@
         <env name="API_PREFIX" value="api" />
         <env name="DB_DATABASE" value="storage/integration/integration.sqlite"/>
         <env name="MAIL_DRIVER" value="log"/>
-        <env name="MAIL_HOST" value="mailgun.smtp.org"/>
-        <env name="MAIL_PORT" value="2525"/>
-        <env name="CASHIER_ENV" value="integration"/>
+        <env name="CASHIER_ENV" value="testing"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="STRIPE_MODEL" value="Groid\User" />
         <env name="STRIPE_KEY" value="pk_test_1PYyais53dMFdNUjeojetlMg" />

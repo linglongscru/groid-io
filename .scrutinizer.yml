@@ -7,13 +7,12 @@ build:
     dependencies:
         before:
             - cp .env.travis .env
-            - touch storage/acceptance/acceptance.sqlite
+            - touch storage/integration/integration.sqlite
             - mkdir storage/uploads
             - chmod -R 777 storage bootstrap/cache
             - composer install --prefer-source
             - php artisan key:generate
             - php artisan migrate --seed
-            - cp storage/acceptance/acceptance.sqlite storage/integration/integration.sqlite
     tests:
         override:
             -

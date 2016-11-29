@@ -9,12 +9,11 @@ before_script:
   - phpenv config-rm xdebug.ini
   - cp .env.travis .env
 script:
-  - touch storage/acceptance/acceptance.sqlite
+  - touch storage/integration/integration.sqlite
   - mkdir storage/uploads
   - chmod -R 777 storage bootstrap/cache
   - composer self-update
   - composer install --prefer-source
   - php artisan key:generate
   - php artisan migrate --seed
-  - cp storage/acceptance/acceptance.sqlite storage/integration/integration.sqlite
   - phpunit
