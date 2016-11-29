@@ -53,7 +53,6 @@ class CreateApiTokenTest extends TestCase
         );
     }
 
-
 //    public function test_abilities_must_be_valid_abilities()
 //    {
 //        Spark::tokensCan(['create-servers' => 'Create Servers']);
