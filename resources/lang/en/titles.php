@@ -6,6 +6,7 @@ return [
 	'app2'		=> 'groid.io',
 
 	'home'		=> 'Home',
+	'activate'  => 'Please Activate Your Account',
 	'login'		=> 'Login',
 	'logout'	=> 'Logout',
 	'register'	=> 'Register',

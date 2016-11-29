@@ -23,7 +23,7 @@ return [
     'successActivated'	=> 'Success! Your account has been activated.',
     'unsuccessful'		=> 'Your account could not be activated; please try again.',
     'notCreated'		=> 'Your account could not be created; please try again.',
-    'tooManyEmails'		=> 'Too many activation emails have been sent to :email.',
+    'tooManyEmails'		=> 'Too many activation emails have been sent.',
 
     'sentEmail'			=> 'We sent an email to :email.',
     'clickInEmail'		=> 'Please click the link in the email to activate your account.',

@@ -2,12 +2,14 @@
 
 namespace Groid\Http\Controllers\Auth;
 
+use Groid\Http\Controllers\Controller as Controller;
+use Groid\Mail\ActivateUser;
 use Groid\User;
 use Groid\Http\Utilities\FlashMessaging as Message;
+use Illuminate\Support\Facades\Mail;
 
 class ActivationController extends Controller
 {
-
     /**
      * @param $code
      * @param Message $message
@@ -22,7 +24,6 @@ class ActivationController extends Controller
             if ($user->save()) {
                 \Auth::login($user);
                 $message->flash(\Lang::get('auth.successActivated'), 'success');
-                session()->flash('create_a_profile', 'Please take a moment to add a little detail to your profile.');
             }
             return view('/home');
         }
@@ -31,11 +32,11 @@ class ActivationController extends Controller
             \Auth::user()->activation_token = null;
             \Auth::user()->save();
             $message->flash('Your account is already active. let\'s grow something!', 'warning');
-            return view('user.profile');
+            return view('home');
         }
 
         $message->flash('Sorry, friend, that is not a valid link. '.\Lang::get('auth.pleaseActivate'), 'warning');
-        return view('auth.login');
+        return redirect('home');
     }
 
     /**
@@ -47,24 +48,24 @@ class ActivationController extends Controller
             'email' => $user->email,
             'code' => $user->activation_token,
         );
-        mail($data[ 'email' ], 'emails.activate_account', \Lang::get('auth.pleaseActivate'));
+        return Mail::to($data[ 'email' ])->send(new ActivateUser($data[ 'code' ]));
     }
 
     /**
      * @return $this
      */
-    public function resendEmail()
+    public function resendEmail(Message $message)
     {
         $user = \Auth::user();
         if ($user->resent >= 3) {
-            return view('auth.tooManyEmails')
-                ->with('email', $user->email);
+            $flashMessage = $message->flash(\Lang::get('auth.tooManyEmails'), 'danger');
+            return view('auth.activate_account')->with('email', $user->email, $flashMessage);
         } else {
             $user->resent = $user->resent + 1;
             $user->save();
             $this->sendEmail($user);
 
-            return view('auth.activateAccount')
+            return view('auth.activate_account')
                 ->with('email', $user->email);
         }
     }
